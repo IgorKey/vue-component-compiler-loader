@@ -1,0 +1,36 @@
+{
+  "name": "vue-component-compiler-loader",
+  "version": "0.0.1",
+  "author": "Sergey Larin",
+  "description": "Simple webpack wrapper for vue-component-compiler",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "lint": "eslint src test",
+    "lint-fix": "eslint src test --fix",
+    "test": "jest"
+  },
+  "dependencies": {
+    "vue-component-compiler": "git+https://github.com/laserg/vue-component-compiler.git"
+  },
+  "devDependencies": {
+    "blank-template-plugin": "git+https://github.com/laserg/blank-template-plugin.git",
+    "chai": "^4.1.2",
+    "eslint": "^4.12.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "insert-css": "^2.0.0",
+    "inspect-loader": "^1.0.0",
+    "jest": "^21.2.1",
+    "memory-fs": "^0.4.1",
+    "webpack": "^3.10.0"
+  }
+}
